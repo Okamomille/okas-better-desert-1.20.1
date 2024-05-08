@@ -7,8 +7,11 @@
     "okasbetterdesert:polished_sandstone",
     "okasbetterdesert:tiled_sandstone",
     "okasbetterdesert:bit_sandstone",
+    "okasbetterdesert:sandstone_pillar",
+    "okasbetterdesert:bit_sandstone_pillar",
     "minecraft:sandstone",
     "minecraft:cut_sandstone",
-    "minecraft:smooth_sandstone"
+    "minecraft:smooth_sandstone",
+    "minecraft:chiseled_sandstone"
   ]
 }

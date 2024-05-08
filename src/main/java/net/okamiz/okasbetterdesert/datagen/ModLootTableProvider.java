@@ -18,5 +18,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.POLISHED_SANDSTONE);
         addDrop(ModBlocks.BIT_SANDSTONE);
         addDrop(ModBlocks.TILED_SANDSTONE);
+        addDrop(ModBlocks.SANDSTONE_PILLAR);
+        addDrop(ModBlocks.BIT_SANDSTONE_PILLAR);
     }
 }

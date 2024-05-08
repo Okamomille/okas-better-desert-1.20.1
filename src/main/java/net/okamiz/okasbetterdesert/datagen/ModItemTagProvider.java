@@ -28,6 +28,8 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.POLISHED_SANDSTONE.asItem())
                 .add(ModBlocks.TILED_SANDSTONE.asItem())
                 .add(ModBlocks.BIT_SANDSTONE.asItem())
+                .add(ModBlocks.SANDSTONE_PILLAR.asItem())
+                .add(ModBlocks.BIT_SANDSTONE_PILLAR.asItem())
                 .add(Blocks.SANDSTONE.asItem())
                 .add(Blocks.CUT_SANDSTONE.asItem())
                 .add(Blocks.SMOOTH_SANDSTONE.asItem())

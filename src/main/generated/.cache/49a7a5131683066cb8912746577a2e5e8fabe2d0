@@ -1,5 +1,7 @@
-// 1.20.1	2024-05-08T12:03:16.1676456	Oka's Better Desert/Block Loot Tables
+// 1.20.1	2024-05-08T12:20:42.3373547	Oka's Better Desert/Block Loot Tables
 0398149f7d72acbdec253887cdf046fe1c8f21d5 data\okasbetterdesert\loot_tables\blocks\sandstone_tiles.json
+6ad601321c29b2a0b04ef61284671404b83d7df4 data\okasbetterdesert\loot_tables\blocks\bit_sandstone_pillar.json
+b9c1f2d064c7755983d7cb559ccc003e03e06bdc data\okasbetterdesert\loot_tables\blocks\sandstone_pillar.json
 71bdfac5c0c9a56193e98e569ac2c8637113f318 data\okasbetterdesert\loot_tables\blocks\chiseled_sandstone.json
 9381a80cc07703c52081dd8f33715f495da0d5e2 data\okasbetterdesert\loot_tables\blocks\tiled_sandstone.json
 8c1e6c68f171a2dd620e300ffe1ff78faacb1a4c data\okasbetterdesert\loot_tables\blocks\bit_sandstone.json

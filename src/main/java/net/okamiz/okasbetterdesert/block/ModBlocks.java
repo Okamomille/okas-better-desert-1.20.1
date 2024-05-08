@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -28,6 +29,10 @@ public class ModBlocks {
     public static final Block TILED_SANDSTONE = registerBlock("tiled_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
+    public static final Block SANDSTONE_PILLAR = registerBlock("sandstone_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+    public static final Block BIT_SANDSTONE_PILLAR = registerBlock("bit_sandstone_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
 
 

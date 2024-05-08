@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "okasbetterdesert",
+	"version": "${version}",
+	"name": "Oka's Better Desert",
+	"description": "This mod aims to add changes to improve the desert biome.",
+	"authors": [
+		"Okamiz"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/okasbetterdesert/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.okamiz.okasbetterdesert.OkasBetterDesert"
+		],
+		"fabric-datagen": [
+			"net.okamiz.okasbetterdesert.OkasBetterDesertDataGenerator"
+		],
+		"client": [
+			"net.okamiz.okasbetterdesert.OkasBetterDesertClient"
+		]
+	},
+	"mixins": [
+		"okasbetterdesert.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

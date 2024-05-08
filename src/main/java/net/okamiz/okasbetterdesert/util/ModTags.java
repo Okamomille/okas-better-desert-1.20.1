@@ -25,6 +25,8 @@ public class ModTags {
     {
         public static final TagKey<Item> SANDSTONES =
                 createTag("sandstones");
+        public static final TagKey<Item> RED_SANDSTONES =
+                createTag("red_sandstones");
 
         private static TagKey<Item> createTag(String name){
             return TagKey.of(RegistryKeys.ITEM, new Identifier(OkasBetterDesert.MOD_ID, name));

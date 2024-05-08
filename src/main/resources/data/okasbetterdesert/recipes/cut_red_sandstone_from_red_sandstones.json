@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "tag": "okasbetterdesert:red_sandstones"
+  },
+  "result": "minecraft:cut_red_sandstone",
+  "count": 1
+}

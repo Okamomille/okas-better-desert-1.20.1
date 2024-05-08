@@ -34,7 +34,17 @@ public class ModBlocks {
     public static final Block BIT_SANDSTONE_PILLAR = registerBlock("bit_sandstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
+    public static final Block CHISELED_RED_SANDSTONE = registerBlock("chiseled_red_sandstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
+    public static final Block BIT_RED_SANDSTONE = registerBlock("bit_red_sandstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
+    public static final Block RED_SANDSTONE_BRICKS = registerBlock("red_sandstone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
+    public static final Block TILED_RED_SANDSTONE = registerBlock("tiled_red_sandstone",
+            new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
 
+    public static final Block BIT_RED_SANDSTONE_PILLAR = registerBlock("bit_red_sandstone_pillar",
+            new PillarBlock(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
 
     // --------------
 

@@ -19,6 +19,11 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BIT_SANDSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TILED_SANDSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_SANDSTONE);
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_RED_SANDSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_SANDSTONE_BRICKS);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BIT_RED_SANDSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TILED_RED_SANDSTONE);
     }
 
     @Override

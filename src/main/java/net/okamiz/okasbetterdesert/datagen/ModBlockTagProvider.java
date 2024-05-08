@@ -30,6 +30,12 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BIT_SANDSTONE)
                 .add(ModBlocks.SANDSTONE_PILLAR)
                 .add(ModBlocks.BIT_SANDSTONE_PILLAR)
+
+                .add(ModBlocks.CHISELED_RED_SANDSTONE)
+                .add(ModBlocks.RED_SANDSTONE_BRICKS)
+                .add(ModBlocks.TILED_RED_SANDSTONE)
+                .add(ModBlocks.BIT_RED_SANDSTONE)
+                .add(ModBlocks.BIT_RED_SANDSTONE_PILLAR)
         ;
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)

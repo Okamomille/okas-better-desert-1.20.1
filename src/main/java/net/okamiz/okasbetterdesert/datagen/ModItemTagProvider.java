@@ -30,10 +30,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.BIT_SANDSTONE.asItem())
                 .add(ModBlocks.SANDSTONE_PILLAR.asItem())
                 .add(ModBlocks.BIT_SANDSTONE_PILLAR.asItem())
+
                 .add(Blocks.SANDSTONE.asItem())
                 .add(Blocks.CUT_SANDSTONE.asItem())
                 .add(Blocks.SMOOTH_SANDSTONE.asItem())
                 .add(Blocks.CHISELED_SANDSTONE.asItem())
+        ;
+        getOrCreateTagBuilder(ModTags.Items.RED_SANDSTONES)
+                .add(ModBlocks.CHISELED_RED_SANDSTONE.asItem())
+                .add(ModBlocks.RED_SANDSTONE_BRICKS.asItem())
+                .add(ModBlocks.TILED_RED_SANDSTONE.asItem())
+                .add(ModBlocks.BIT_RED_SANDSTONE.asItem())
+                .add(ModBlocks.BIT_RED_SANDSTONE_PILLAR.asItem())
+
+                .add(Blocks.RED_SANDSTONE.asItem())
+                .add(Blocks.CUT_RED_SANDSTONE.asItem())
+                .add(Blocks.SMOOTH_RED_SANDSTONE.asItem())
+                .add(Blocks.CHISELED_RED_SANDSTONE.asItem())
         ;
 
 

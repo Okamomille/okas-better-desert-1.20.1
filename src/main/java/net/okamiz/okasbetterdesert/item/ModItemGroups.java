@@ -24,6 +24,14 @@ public class ModItemGroups {
                         entries.add(ModBlocks.POLISHED_SANDSTONE);
                         entries.add(ModBlocks.TILED_SANDSTONE);
                         entries.add(ModBlocks.BIT_SANDSTONE);
+                        entries.add(ModBlocks.SANDSTONE_PILLAR);
+                        entries.add(ModBlocks.BIT_SANDSTONE_PILLAR);
+
+                        entries.add(ModBlocks.CHISELED_RED_SANDSTONE);
+                        entries.add(ModBlocks.RED_SANDSTONE_BRICKS);
+                        entries.add(ModBlocks.TILED_RED_SANDSTONE);
+                        entries.add(ModBlocks.BIT_RED_SANDSTONE);
+                        entries.add(ModBlocks.BIT_RED_SANDSTONE_PILLAR);
 
                     }).build());
 

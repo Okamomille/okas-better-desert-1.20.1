@@ -33,6 +33,24 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BIT_RED_SANDSTONE);
                         entries.add(ModBlocks.BIT_RED_SANDSTONE_PILLAR);
 
+
+                        entries.add(ModBlocks.WHITE_ROYAL_WOOL);
+                        entries.add(ModBlocks.LIGHT_GRAY_ROYAL_WOOL);
+                        entries.add(ModBlocks.GRAY_ROYAL_WOOL);
+                        entries.add(ModBlocks.BLACK_ROYAL_WOOL);
+                        entries.add(ModBlocks.BROWN_ROYAL_WOOL);
+                        entries.add(ModBlocks.RED_ROYAL_WOOL);
+                        entries.add(ModBlocks.ORANGE_ROYAL_WOOL);
+                        entries.add(ModBlocks.YELLOW_ROYAL_WOOL);
+                        entries.add(ModBlocks.LIME_ROYAL_WOOL);
+                        entries.add(ModBlocks.GREEN_ROYAL_WOOL);
+                        entries.add(ModBlocks.CYAN_ROYAL_WOOL);
+                        entries.add(ModBlocks.LIGHT_BLUE_ROYAL_WOOL);
+                        entries.add(ModBlocks.BLUE_ROYAL_WOOL);
+                        entries.add(ModBlocks.PURPLE_ROYAL_WOOL);
+                        entries.add(ModBlocks.MAGENTA_ROYAL_WOOL);
+                        entries.add(ModBlocks.PINK_ROYAL_WOOL);
+
                     }).build());
 
     public static void registerItemGroups(){

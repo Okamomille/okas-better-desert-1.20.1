@@ -46,6 +46,43 @@ public class ModBlocks {
     public static final Block BIT_RED_SANDSTONE_PILLAR = registerBlock("bit_red_sandstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
 
+
+
+
+    // --------------
+    public static final Block BLACK_ROYAL_WOOL = registerBlock("black_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block BLUE_ROYAL_WOOL = registerBlock("blue_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block BROWN_ROYAL_WOOL = registerBlock("brown_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block CYAN_ROYAL_WOOL = registerBlock("cyan_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block GRAY_ROYAL_WOOL = registerBlock("gray_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block GREEN_ROYAL_WOOL = registerBlock("green_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block LIGHT_BLUE_ROYAL_WOOL = registerBlock("light_blue_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block LIGHT_GRAY_ROYAL_WOOL = registerBlock("light_gray_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block LIME_ROYAL_WOOL = registerBlock("lime_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block MAGENTA_ROYAL_WOOL = registerBlock("magenta_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block ORANGE_ROYAL_WOOL = registerBlock("orange_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block PINK_ROYAL_WOOL = registerBlock("pink_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block PURPLE_ROYAL_WOOL = registerBlock("purple_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block RED_ROYAL_WOOL = registerBlock("red_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block WHITE_ROYAL_WOOL = registerBlock("white_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block YELLOW_ROYAL_WOOL = registerBlock("yellow_royal_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+
     // --------------
 
 

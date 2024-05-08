@@ -2,6 +2,7 @@ package net.okamiz.okasbetterdesert.datagen;
 
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
+import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.BlockTags;
@@ -36,7 +37,29 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.TILED_RED_SANDSTONE)
                 .add(ModBlocks.BIT_RED_SANDSTONE)
                 .add(ModBlocks.BIT_RED_SANDSTONE_PILLAR)
+
+
         ;
+
+        getOrCreateTagBuilder(BlockTags.WOOL)
+                .add(ModBlocks.WHITE_ROYAL_WOOL)
+                .add(ModBlocks.BLACK_ROYAL_WOOL)
+                .add(ModBlocks.RED_ROYAL_WOOL)
+                .add(ModBlocks.BLUE_ROYAL_WOOL)
+                .add(ModBlocks.CYAN_ROYAL_WOOL)
+                .add(ModBlocks.GRAY_ROYAL_WOOL)
+                .add(ModBlocks.GREEN_ROYAL_WOOL)
+                .add(ModBlocks.LIGHT_BLUE_ROYAL_WOOL)
+                .add(ModBlocks.LIME_ROYAL_WOOL)
+                .add(ModBlocks.LIGHT_GRAY_ROYAL_WOOL)
+                .add(ModBlocks.MAGENTA_ROYAL_WOOL)
+                .add(ModBlocks.PINK_ROYAL_WOOL)
+                .add(ModBlocks.ORANGE_ROYAL_WOOL)
+                .add(ModBlocks.PURPLE_ROYAL_WOOL)
+                .add(ModBlocks.BROWN_ROYAL_WOOL)
+                .add(ModBlocks.YELLOW_ROYAL_WOOL)
+        ;
+
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
 

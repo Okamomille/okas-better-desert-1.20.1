@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.registry.RegistryWrapper;
+import net.minecraft.registry.tag.ItemTags;
 import net.okamiz.okasbetterdesert.block.ModBlocks;
 import net.okamiz.okasbetterdesert.util.ModTags;
 import org.jetbrains.annotations.Nullable;
@@ -47,6 +48,26 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(Blocks.CUT_RED_SANDSTONE.asItem())
                 .add(Blocks.SMOOTH_RED_SANDSTONE.asItem())
                 .add(Blocks.CHISELED_RED_SANDSTONE.asItem())
+        ;
+
+
+        getOrCreateTagBuilder(ItemTags.WOOL)
+                .add(ModBlocks.WHITE_ROYAL_WOOL.asItem())
+                .add(ModBlocks.BLACK_ROYAL_WOOL.asItem())
+                .add(ModBlocks.RED_ROYAL_WOOL.asItem())
+                .add(ModBlocks.BLUE_ROYAL_WOOL.asItem())
+                .add(ModBlocks.CYAN_ROYAL_WOOL.asItem())
+                .add(ModBlocks.GRAY_ROYAL_WOOL.asItem())
+                .add(ModBlocks.GREEN_ROYAL_WOOL.asItem())
+                .add(ModBlocks.LIGHT_BLUE_ROYAL_WOOL.asItem())
+                .add(ModBlocks.LIME_ROYAL_WOOL.asItem())
+                .add(ModBlocks.LIGHT_GRAY_ROYAL_WOOL.asItem())
+                .add(ModBlocks.MAGENTA_ROYAL_WOOL.asItem())
+                .add(ModBlocks.PINK_ROYAL_WOOL.asItem())
+                .add(ModBlocks.ORANGE_ROYAL_WOOL.asItem())
+                .add(ModBlocks.PURPLE_ROYAL_WOOL.asItem())
+                .add(ModBlocks.BROWN_ROYAL_WOOL.asItem())
+                .add(ModBlocks.YELLOW_ROYAL_WOOL.asItem())
         ;
 
 

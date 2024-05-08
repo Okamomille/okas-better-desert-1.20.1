@@ -24,6 +24,25 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_SANDSTONE_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BIT_RED_SANDSTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TILED_RED_SANDSTONE);
+
+
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGENTA_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CYAN_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_BLUE_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YELLOW_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIME_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAY_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_GRAY_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_ROYAL_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_ROYAL_WOOL);
+
     }
 
     @Override

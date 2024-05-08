@@ -1,6 +1,11 @@
 {
   "replace": false,
   "values": [
-    "okasbetterdesert:chiseled_sandstone"
+    "okasbetterdesert:chiseled_sandstone",
+    "okasbetterdesert:sandstone_bricks",
+    "okasbetterdesert:sandstone_tiles",
+    "okasbetterdesert:polished_sandstone",
+    "okasbetterdesert:tiled_sandstone",
+    "okasbetterdesert:bit_sandstone"
   ]
 }

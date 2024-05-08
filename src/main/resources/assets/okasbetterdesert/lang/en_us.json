@@ -4,5 +4,13 @@
   "block.okasbetterdesert.bit_sandstone" : "Bit Sandstone",
   "block.okasbetterdesert.tiled_sandstone" : "Tiled Sandstone",
   "block.okasbetterdesert.sandstone_bricks" : "Sandstone Bricks",
-  "block.okasbetterdesert.sandstone_tiles" : "Sandstone Tiles"
+  "block.okasbetterdesert.sandstone_tiles" : "Sandstone Tiles",
+
+
+
+
+
+
+
+  "itemgroup.modgroup" : "Oka's Better Desert"
 }

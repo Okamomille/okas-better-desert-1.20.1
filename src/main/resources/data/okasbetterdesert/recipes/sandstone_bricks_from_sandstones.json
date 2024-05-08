@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "category": "blocks",
+  "ingredient": {
+    "tag": "okasbetterdesert:sandstones"
+  },
+  "result": "okasbetterdesert:sandstone_bricks",
+  "count": 1
+}

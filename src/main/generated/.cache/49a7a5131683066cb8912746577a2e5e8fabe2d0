@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-09T11:11:18.4292593	Oka's Better Desert/Block Loot Tables
+// 1.20.1	2024-05-09T16:44:47.6831499	Oka's Better Desert/Block Loot Tables
 6ad601321c29b2a0b04ef61284671404b83d7df4 data\okasbetterdesert\loot_tables\blocks\bit_sandstone_pillar.json
 6b2b12c31fabe8b880c74279aba9925e4894c129 data\okasbetterdesert\loot_tables\blocks\cyan_royal_wool.json
 fe7fe86eb1d0055bfc2babb5063b786adbc3e350 data\okasbetterdesert\loot_tables\blocks\white_royal_wool.json
@@ -27,9 +27,9 @@ b9c1f2d064c7755983d7cb559ccc003e03e06bdc data\okasbetterdesert\loot_tables\block
 c66fc7843504844614a32a36d455f15f51fe83c7 data\okasbetterdesert\loot_tables\blocks\chiseled_red_sandstone.json
 de77700394a2176120d76125d2f47d9b7130b794 data\okasbetterdesert\loot_tables\blocks\bit_red_sandstone.json
 f0cb913653dae146ee9f31978098f890e05aeffc data\okasbetterdesert\loot_tables\blocks\cactus_trapdoor.json
-7feac634e321d95dc6a8f807768dcb5ec4c8a9b9 data\okasbetterdesert\loot_tables\blocks\black_royal_wool.json
 c362fcb93e441cd6ebb1b7bfe8585d32e2f51630 data\okasbetterdesert\loot_tables\blocks\cactus_slab.json
-a3fa88ba7d32dc88fde1f22c3b2bcb584e3ad759 data\okasbetterdesert\loot_tables\blocks\tiled_red_sandstone.json
+7feac634e321d95dc6a8f807768dcb5ec4c8a9b9 data\okasbetterdesert\loot_tables\blocks\black_royal_wool.json
 3c7a0fe542e2ee27af0afb92de81eb8523c50c3b data\okasbetterdesert\loot_tables\blocks\cactus_stairs.json
+a3fa88ba7d32dc88fde1f22c3b2bcb584e3ad759 data\okasbetterdesert\loot_tables\blocks\tiled_red_sandstone.json
 fc55263877e36369555b6f3d1858778d0dedabcc data\okasbetterdesert\loot_tables\blocks\cactus_door.json
 829fcc97f7510355342162b0ebd218e716bd0abc data\okasbetterdesert\loot_tables\blocks\yellow_royal_wool.json

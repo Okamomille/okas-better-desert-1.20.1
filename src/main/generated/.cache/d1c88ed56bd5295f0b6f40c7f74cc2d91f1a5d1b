@@ -1,12 +1,12 @@
-// 1.20.1	2024-05-09T11:11:18.4237058	Oka's Better Desert/Tags for minecraft:block
+// 1.20.1	2024-05-09T16:44:47.6788552	Oka's Better Desert/Tags for minecraft:block
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
 756839282ea843beb7085250f94fe6325a03ed83 data\minecraft\tags\blocks\mineable\pickaxe.json
-c909287804275e99b367397b8cf5083707948bfa data\minecraft\tags\blocks\wooden_slabs.json
 964040fd49b1f36a390802bf52a70fda19940c72 data\minecraft\tags\blocks\wooden_doors.json
+c909287804275e99b367397b8cf5083707948bfa data\minecraft\tags\blocks\wooden_slabs.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\shovel.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
 a696b55ebb7cddcf922c2f4499f4b35c7b28937e data\minecraft\tags\blocks\wooden_stairs.json
-8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\mineable\axe.json
+66a829d8e2a98b91d735d188cc5513633be6510e data\minecraft\tags\blocks\mineable\axe.json
 d57201175acbb97f29626b0448a7b2df1e13e80a data\minecraft\tags\blocks\wooden_trapdoors.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
 bbbba7d54bf36564e4c3906e7852b01fb57560da data\minecraft\tags\blocks\wool.json

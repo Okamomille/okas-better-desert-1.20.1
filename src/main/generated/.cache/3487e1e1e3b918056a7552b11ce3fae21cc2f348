@@ -1,8 +1,8 @@
-// 1.20.1	2024-05-09T11:11:18.4314062	Oka's Better Desert/Model Definitions
+// 1.20.1	2024-05-09T16:44:47.6847837	Oka's Better Desert/Model Definitions
 3d34287eaca6de51c5a6b45831e7311947fc51d4 assets\okasbetterdesert\models\item\black_royal_wool.json
 de61f1494a103d4e9d0714818da480010af5f298 assets\okasbetterdesert\models\block\white_royal_wool.json
-3b9b8b0683790091eba261ad629a24396d54b94a assets\okasbetterdesert\models\block\bit_red_sandstone.json
 187d0103a63c8a015f2664b7e43db84248533c52 assets\okasbetterdesert\models\item\chiseled_red_sandstone.json
+3b9b8b0683790091eba261ad629a24396d54b94a assets\okasbetterdesert\models\block\bit_red_sandstone.json
 27696d442a4414a80e3c877a6c1516b4c4171e35 assets\okasbetterdesert\models\item\orange_royal_wool.json
 5cd277eae501b173fbad1f7413393e9dc1ec3ef0 assets\okasbetterdesert\blockstates\green_royal_wool.json
 29b03940b85b46f4046df29a74b7ee75687eeace assets\okasbetterdesert\blockstates\purple_royal_wool.json
@@ -51,8 +51,8 @@ f3302d554ee502afe10b612a44dae0fc899112ad assets\okasbetterdesert\models\block\ca
 1c2893f34548c1f354a1361a5e8eb593bbb4cf17 assets\okasbetterdesert\models\block\bit_sandstone.json
 3258cabf7b8b8418720939ecba0cc0dc84cd2b4e assets\okasbetterdesert\models\item\polished_sandstone.json
 46f650ba0ace2b9ab4fc788dd31babcf201ee082 assets\okasbetterdesert\blockstates\cactus_planks.json
-8e43ee54d748d8e8f700783ea64ef24a901f5625 assets\okasbetterdesert\models\block\red_royal_wool.json
 dcedfe7648c998f33806da1217ebefe5e55d9aee assets\okasbetterdesert\models\block\red_sandstone_bricks.json
+8e43ee54d748d8e8f700783ea64ef24a901f5625 assets\okasbetterdesert\models\block\red_royal_wool.json
 535b3f56f4fd9216bdc294d8ca2c0e4bf290f19a assets\okasbetterdesert\models\block\green_royal_wool.json
 cf8515f7941b50d89d660d43eb0f4ef5752502d6 assets\okasbetterdesert\blockstates\orange_royal_wool.json
 b56e05de7c8644e4260c9737868ff7ba070a19dc assets\okasbetterdesert\models\item\cactus_door.json

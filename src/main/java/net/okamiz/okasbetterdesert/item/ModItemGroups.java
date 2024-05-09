@@ -51,6 +51,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGENTA_ROYAL_WOOL);
                         entries.add(ModBlocks.PINK_ROYAL_WOOL);
 
+                        entries.add(ModBlocks.CACTUS_PLANKS);
+                        entries.add(ModBlocks.CACTUS_STAIRS);
+                        entries.add(ModBlocks.CACTUS_SLAB);
+                        entries.add(ModBlocks.CACTUS_DOOR);
+                        entries.add(ModBlocks.CACTUS_TRAPDOOR);
+
+
                     }).build());
 
     public static void registerItemGroups(){

@@ -90,7 +90,7 @@ public class ModBlocks {
     // --------------
 
     public static final Block CACTUS_PLANKS = registerBlock("cactus_planks",
-            new Block(FabricBlockSettings.copyOf(Blocks.BAMBOO_BLOCK)));
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).sounds(BlockSoundGroup.BAMBOO_WOOD)));
     public static final Block CACTUS_STAIRS = registerBlock("cactus_stairs",
             new StairsBlock(ModBlocks.CACTUS_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.CACTUS_PLANKS)));
     public static final Block CACTUS_SLAB = registerBlock("cactus_slab",

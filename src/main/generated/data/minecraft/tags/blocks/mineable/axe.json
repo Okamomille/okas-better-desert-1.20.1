@@ -1,4 +1,10 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "okasbetterdesert:cactus_planks",
+    "okasbetterdesert:cactus_stairs",
+    "okasbetterdesert:cactus_slab",
+    "okasbetterdesert:cactus_trapdoor",
+    "okasbetterdesert:cactus_door"
+  ]
 }

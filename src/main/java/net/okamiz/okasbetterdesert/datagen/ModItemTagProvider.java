@@ -70,6 +70,10 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.YELLOW_ROYAL_WOOL.asItem())
         ;
 
+        getOrCreateTagBuilder(ItemTags.PLANKS)
+                .add(ModBlocks.CACTUS_PLANKS.asItem())
+        ;
+
 
     }
 }

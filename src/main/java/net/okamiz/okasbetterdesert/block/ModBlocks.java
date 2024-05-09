@@ -2,9 +2,7 @@ package net.okamiz.okasbetterdesert.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -12,6 +10,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.okamiz.okasbetterdesert.OkasBetterDesert;
+import net.okamiz.okasbetterdesert.block.custom.ModTrapdoorBlock;
 
 public class ModBlocks {
 
@@ -82,6 +81,31 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
     public static final Block YELLOW_ROYAL_WOOL = registerBlock("yellow_royal_wool",
             new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+
+
+
+
+
+
+    // --------------
+
+    public static final Block CACTUS_PLANKS = registerBlock("cactus_planks",
+            new Block(FabricBlockSettings.copyOf(Blocks.BAMBOO_BLOCK)));
+    public static final Block CACTUS_STAIRS = registerBlock("cactus_stairs",
+            new StairsBlock(ModBlocks.CACTUS_PLANKS.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.CACTUS_PLANKS)));
+    public static final Block CACTUS_SLAB = registerBlock("cactus_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.CACTUS_PLANKS)));
+
+    public static final Block CACTUS_DOOR = registerBlock("cactus_door",
+            new DoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_DOOR),BlockSetType.BAMBOO));
+    public static final Block CACTUS_TRAPDOOR = registerBlock("cactus_trapdoor",
+            new ModTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_TRAPDOOR),BlockSetType.BAMBOO));
+
+
+
+
+
+
 
     // --------------
 

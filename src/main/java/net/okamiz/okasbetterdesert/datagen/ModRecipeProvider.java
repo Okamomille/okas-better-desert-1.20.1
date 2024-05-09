@@ -6,6 +6,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import net.okamiz.okasbetterdesert.block.ModBlocks;
@@ -174,5 +175,32 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.YELLOW_WOOL),conditionsFromItem(ModBlocks.YELLOW_ROYAL_WOOL))
                 .offerTo(exporter, new Identifier("yellow_royal_wool_recipe"));
 
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC,ModBlocks.CACTUS_PLANKS, 2)
+                .pattern("OO")
+                .pattern("OO")
+                .input('O', Blocks.CACTUS)
+                .criterion(hasItem(Blocks.CACTUS),conditionsFromItem(Blocks.CACTUS))
+                .offerTo(exporter, new Identifier("cactus_planks_recipe"));
+
+        createStairsRecipe(ModBlocks.CACTUS_STAIRS, Ingredient.ofItems(ModBlocks.CACTUS_PLANKS))
+                .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.CACTUS_SLAB, Ingredient.ofItems(ModBlocks.CACTUS_PLANKS))
+                .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_SLAB)));
+
+        createDoorRecipe(ModBlocks.CACTUS_DOOR, Ingredient.ofItems(ModBlocks.CACTUS_PLANKS))
+                .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_DOOR)));
+
+        createTrapdoorRecipe(ModBlocks.CACTUS_TRAPDOOR, Ingredient.ofItems(ModBlocks.CACTUS_PLANKS))
+                .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_TRAPDOOR)));
+        
+        
+        
     }
 }

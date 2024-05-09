@@ -66,7 +66,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
 
         getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
-
+                .add(ModBlocks.CACTUS_PLANKS)
+                .add(ModBlocks.CACTUS_STAIRS)
+                .add(ModBlocks.CACTUS_SLAB)
+                .add(ModBlocks.CACTUS_TRAPDOOR)
+                .add(ModBlocks.CACTUS_DOOR)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -80,6 +84,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
 
         ;
+
+
+        getOrCreateTagBuilder(BlockTags.WOODEN_DOORS)
+                .add(ModBlocks.CACTUS_DOOR)
+        ;
+        getOrCreateTagBuilder(BlockTags.WOODEN_TRAPDOORS)
+                .add(ModBlocks.CACTUS_TRAPDOOR)
+        ;
+        getOrCreateTagBuilder(BlockTags.WOODEN_SLABS)
+                .add(ModBlocks.CACTUS_SLAB)
+        ;
+        getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS)
+                .add(ModBlocks.CACTUS_STAIRS)
+        ;
+
+
+
 
 
     }

@@ -43,6 +43,16 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_ROYAL_WOOL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_ROYAL_WOOL);
 
+        BlockStateModelGenerator.BlockTexturePool fadedCactusPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CACTUS_PLANKS);
+        fadedCactusPool.stairs(ModBlocks.CACTUS_STAIRS);
+        fadedCactusPool.slab(ModBlocks.CACTUS_SLAB);
+        blockStateModelGenerator.registerDoor(ModBlocks.CACTUS_DOOR);
+        blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CACTUS_TRAPDOOR);
+        
+        
+        
+        
+        
     }
 
     @Override

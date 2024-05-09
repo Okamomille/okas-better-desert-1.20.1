@@ -3,6 +3,7 @@ package net.okamiz.okasbetterdesert;
 import net.fabricmc.api.ModInitializer;
 
 import net.okamiz.okasbetterdesert.block.ModBlocks;
+import net.okamiz.okasbetterdesert.block.ModFlammableBlocks;
 import net.okamiz.okasbetterdesert.item.ModItemGroups;
 import net.okamiz.okasbetterdesert.item.ModItems;
 import org.slf4j.Logger;
@@ -22,5 +23,7 @@ public class OkasBetterDesert implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModFlammableBlocks.registerModFlammableBlocks();
 	}
 }

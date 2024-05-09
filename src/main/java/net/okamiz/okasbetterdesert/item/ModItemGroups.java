@@ -57,6 +57,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CACTUS_DOOR);
                         entries.add(ModBlocks.CACTUS_TRAPDOOR);
 
+                        entries.add(ModBlocks.TINY_CACTUS);
+
 
                     }).build());
 

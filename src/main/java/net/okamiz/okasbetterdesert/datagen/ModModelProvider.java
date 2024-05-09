@@ -48,8 +48,8 @@ public class ModModelProvider extends FabricModelProvider {
         fadedCactusPool.slab(ModBlocks.CACTUS_SLAB);
         blockStateModelGenerator.registerDoor(ModBlocks.CACTUS_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CACTUS_TRAPDOOR);
-        
-        
+
+        blockStateModelGenerator.registerTintableCross(ModBlocks.TINY_CACTUS, BlockStateModelGenerator.TintType.NOT_TINTED);
         
         
         

@@ -3,6 +3,7 @@ package net.okamiz.okasbetterdesert.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.*;
+import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -102,7 +103,9 @@ public class ModBlocks {
             new ModTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_TRAPDOOR),BlockSetType.BAMBOO));
 
 
-
+    public static final Block TINY_CACTUS = registerBlock("tiny_cactus",
+            new FlowerBlock(StatusEffects.POISON, 30,
+                    FabricBlockSettings.copyOf(Blocks.FERN).nonOpaque().noCollision()));
 
 
 

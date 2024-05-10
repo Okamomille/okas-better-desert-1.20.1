@@ -1,4 +1,4 @@
-// 1.20.1	2024-05-09T16:44:47.6831499	Oka's Better Desert/Block Loot Tables
+// 1.20.1	2024-05-10T10:54:37.9905629	Oka's Better Desert/Block Loot Tables
 6ad601321c29b2a0b04ef61284671404b83d7df4 data\okasbetterdesert\loot_tables\blocks\bit_sandstone_pillar.json
 6b2b12c31fabe8b880c74279aba9925e4894c129 data\okasbetterdesert\loot_tables\blocks\cyan_royal_wool.json
 fe7fe86eb1d0055bfc2babb5063b786adbc3e350 data\okasbetterdesert\loot_tables\blocks\white_royal_wool.json
@@ -9,6 +9,7 @@ fe7fe86eb1d0055bfc2babb5063b786adbc3e350 data\okasbetterdesert\loot_tables\block
 81c770eaffcc4682df26f46747a7054311700c84 data\okasbetterdesert\loot_tables\blocks\red_royal_wool.json
 b16929e6ae3c6e00808c72104a91475318a1f128 data\okasbetterdesert\loot_tables\blocks\orange_royal_wool.json
 1a68c19b78f0ad9d7e9b62136593b4535f523a30 data\okasbetterdesert\loot_tables\blocks\red_sandstone_bricks.json
+b7c034dd74ba978694c876518034afdf8a16c0ff data\okasbetterdesert\loot_tables\blocks\tiny_cactus.json
 a1eb25b14c50f257bf8650d46e847716ea8e6a71 data\okasbetterdesert\loot_tables\blocks\polished_sandstone.json
 01ee8e1791240bae543405f30b96556dfe3a89a2 data\okasbetterdesert\loot_tables\blocks\light_blue_royal_wool.json
 0314d9d84f288395dbe29b2898eeb46ed4d1535b data\okasbetterdesert\loot_tables\blocks\blue_royal_wool.json
@@ -25,6 +26,7 @@ b9c1f2d064c7755983d7cb559ccc003e03e06bdc data\okasbetterdesert\loot_tables\block
 62cc99ce06ae95fe5c6cbbdd7dc965b4ccb57193 data\okasbetterdesert\loot_tables\blocks\light_gray_royal_wool.json
 2258d3a79b2a9988a2056e2a2e529a2ef36564d8 data\okasbetterdesert\loot_tables\blocks\sandstone_bricks.json
 c66fc7843504844614a32a36d455f15f51fe83c7 data\okasbetterdesert\loot_tables\blocks\chiseled_red_sandstone.json
+c243089d9b24753125496573748b8b883ebcac62 data\okasbetterdesert\loot_tables\blocks\small_cactus.json
 de77700394a2176120d76125d2f47d9b7130b794 data\okasbetterdesert\loot_tables\blocks\bit_red_sandstone.json
 f0cb913653dae146ee9f31978098f890e05aeffc data\okasbetterdesert\loot_tables\blocks\cactus_trapdoor.json
 c362fcb93e441cd6ebb1b7bfe8585d32e2f51630 data\okasbetterdesert\loot_tables\blocks\cactus_slab.json

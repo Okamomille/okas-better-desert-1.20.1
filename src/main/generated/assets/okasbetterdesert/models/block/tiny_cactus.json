@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "okasbetterdesert:block/tiny_cactus"
+  }
+}

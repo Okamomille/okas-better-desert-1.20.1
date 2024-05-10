@@ -6,6 +6,7 @@ import net.okamiz.okasbetterdesert.block.ModBlocks;
 import net.okamiz.okasbetterdesert.block.ModFlammableBlocks;
 import net.okamiz.okasbetterdesert.item.ModItemGroups;
 import net.okamiz.okasbetterdesert.item.ModItems;
+import net.okamiz.okasbetterdesert.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,5 +26,6 @@ public class OkasBetterDesert implements ModInitializer {
 		ModBlocks.registerModBlocks();
 
 		ModFlammableBlocks.registerModFlammableBlocks();
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

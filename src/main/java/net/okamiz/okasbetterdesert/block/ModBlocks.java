@@ -85,6 +85,40 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
 
 
+    // --------------
+    public static final Block BLACK_TILED_WOOL = registerBlock("black_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block BLUE_TILED_WOOL = registerBlock("blue_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block BROWN_TILED_WOOL = registerBlock("brown_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block CYAN_TILED_WOOL = registerBlock("cyan_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block GRAY_TILED_WOOL = registerBlock("gray_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block GREEN_TILED_WOOL = registerBlock("green_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block LIGHT_BLUE_TILED_WOOL = registerBlock("light_blue_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block LIGHT_GRAY_TILED_WOOL = registerBlock("light_gray_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block LIME_TILED_WOOL = registerBlock("lime_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block MAGENTA_TILED_WOOL = registerBlock("magenta_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block ORANGE_TILED_WOOL = registerBlock("orange_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block PINK_TILED_WOOL = registerBlock("pink_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block PURPLE_TILED_WOOL = registerBlock("purple_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block RED_TILED_WOOL = registerBlock("red_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block WHITE_TILED_WOOL = registerBlock("white_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+    public static final Block YELLOW_TILED_WOOL = registerBlock("yellow_tiled_wool",
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL)));
+
 
 
 

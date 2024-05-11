@@ -43,6 +43,24 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_ROYAL_WOOL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_ROYAL_WOOL);
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PINK_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.WHITE_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MAGENTA_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CYAN_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_BLUE_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLUE_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.YELLOW_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIME_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PURPLE_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GRAY_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIGHT_GRAY_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BLACK_TILED_WOOL);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GREEN_TILED_WOOL);
+
+
         BlockStateModelGenerator.BlockTexturePool fadedCactusPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CACTUS_PLANKS);
         fadedCactusPool.stairs(ModBlocks.CACTUS_STAIRS);
         fadedCactusPool.slab(ModBlocks.CACTUS_SLAB);

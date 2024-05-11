@@ -12,7 +12,7 @@ import net.okamiz.okasbetterdesert.world.ModPlacedFeatures;
 public class ModFlowerGeneration {
     public static void generateFlowers(){
         //BiomeModifications.addFeature(BiomeSelectors.includeByKey(BiomeKeys.DESERT),
-         //       GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.SMALL_CACTUS_PLACED_KEY);
+        //        GenerationStep.Feature.VEGETAL_DECORATION, ModPlacedFeatures.SMALL_CACTUS_PLACED_KEY);
     }
 
 }

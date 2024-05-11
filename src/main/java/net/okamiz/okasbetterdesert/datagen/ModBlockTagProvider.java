@@ -58,6 +58,23 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PURPLE_ROYAL_WOOL)
                 .add(ModBlocks.BROWN_ROYAL_WOOL)
                 .add(ModBlocks.YELLOW_ROYAL_WOOL)
+
+                .add(ModBlocks.WHITE_TILED_WOOL)
+                .add(ModBlocks.BLACK_TILED_WOOL)
+                .add(ModBlocks.RED_TILED_WOOL)
+                .add(ModBlocks.BLUE_TILED_WOOL)
+                .add(ModBlocks.CYAN_TILED_WOOL)
+                .add(ModBlocks.GRAY_TILED_WOOL)
+                .add(ModBlocks.GREEN_TILED_WOOL)
+                .add(ModBlocks.LIGHT_BLUE_TILED_WOOL)
+                .add(ModBlocks.LIME_TILED_WOOL)
+                .add(ModBlocks.LIGHT_GRAY_TILED_WOOL)
+                .add(ModBlocks.MAGENTA_TILED_WOOL)
+                .add(ModBlocks.PINK_TILED_WOOL)
+                .add(ModBlocks.ORANGE_TILED_WOOL)
+                .add(ModBlocks.PURPLE_TILED_WOOL)
+                .add(ModBlocks.BROWN_TILED_WOOL)
+                .add(ModBlocks.YELLOW_TILED_WOOL)
         ;
 
 

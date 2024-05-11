@@ -51,6 +51,23 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MAGENTA_ROYAL_WOOL);
                         entries.add(ModBlocks.PINK_ROYAL_WOOL);
 
+                        entries.add(ModBlocks.WHITE_TILED_WOOL);
+                        entries.add(ModBlocks.LIGHT_GRAY_TILED_WOOL);
+                        entries.add(ModBlocks.GRAY_TILED_WOOL);
+                        entries.add(ModBlocks.BLACK_TILED_WOOL);
+                        entries.add(ModBlocks.BROWN_TILED_WOOL);
+                        entries.add(ModBlocks.RED_TILED_WOOL);
+                        entries.add(ModBlocks.ORANGE_TILED_WOOL);
+                        entries.add(ModBlocks.YELLOW_TILED_WOOL);
+                        entries.add(ModBlocks.LIME_TILED_WOOL);
+                        entries.add(ModBlocks.GREEN_TILED_WOOL);
+                        entries.add(ModBlocks.CYAN_TILED_WOOL);
+                        entries.add(ModBlocks.LIGHT_BLUE_TILED_WOOL);
+                        entries.add(ModBlocks.BLUE_TILED_WOOL);
+                        entries.add(ModBlocks.PURPLE_TILED_WOOL);
+                        entries.add(ModBlocks.MAGENTA_TILED_WOOL);
+                        entries.add(ModBlocks.PINK_TILED_WOOL);
+
                         entries.add(ModBlocks.CACTUS_PLANKS);
                         entries.add(ModBlocks.CACTUS_STAIRS);
                         entries.add(ModBlocks.CACTUS_SLAB);

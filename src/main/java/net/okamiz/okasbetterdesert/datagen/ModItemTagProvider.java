@@ -68,6 +68,23 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.PURPLE_ROYAL_WOOL.asItem())
                 .add(ModBlocks.BROWN_ROYAL_WOOL.asItem())
                 .add(ModBlocks.YELLOW_ROYAL_WOOL.asItem())
+
+                .add(ModBlocks.WHITE_TILED_WOOL.asItem())
+                .add(ModBlocks.BLACK_TILED_WOOL.asItem())
+                .add(ModBlocks.RED_TILED_WOOL.asItem())
+                .add(ModBlocks.BLUE_TILED_WOOL.asItem())
+                .add(ModBlocks.CYAN_TILED_WOOL.asItem())
+                .add(ModBlocks.GRAY_TILED_WOOL.asItem())
+                .add(ModBlocks.GREEN_TILED_WOOL.asItem())
+                .add(ModBlocks.LIGHT_BLUE_TILED_WOOL.asItem())
+                .add(ModBlocks.LIME_TILED_WOOL.asItem())
+                .add(ModBlocks.LIGHT_GRAY_TILED_WOOL.asItem())
+                .add(ModBlocks.MAGENTA_TILED_WOOL.asItem())
+                .add(ModBlocks.PINK_TILED_WOOL.asItem())
+                .add(ModBlocks.ORANGE_TILED_WOOL.asItem())
+                .add(ModBlocks.PURPLE_TILED_WOOL.asItem())
+                .add(ModBlocks.BROWN_TILED_WOOL.asItem())
+                .add(ModBlocks.YELLOW_TILED_WOOL.asItem())
         ;
 
         getOrCreateTagBuilder(ItemTags.PLANKS)

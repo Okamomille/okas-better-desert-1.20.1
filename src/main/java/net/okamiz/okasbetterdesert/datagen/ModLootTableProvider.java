@@ -44,7 +44,22 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BROWN_ROYAL_WOOL);
         addDrop(ModBlocks.YELLOW_ROYAL_WOOL);
 
-
+        addDrop(ModBlocks.BLUE_TILED_WOOL);
+        addDrop(ModBlocks.WHITE_TILED_WOOL);
+        addDrop(ModBlocks.BLACK_TILED_WOOL);
+        addDrop(ModBlocks.GRAY_TILED_WOOL);
+        addDrop(ModBlocks.LIGHT_BLUE_TILED_WOOL);
+        addDrop(ModBlocks.GREEN_TILED_WOOL);
+        addDrop(ModBlocks.LIGHT_GRAY_TILED_WOOL);
+        addDrop(ModBlocks.MAGENTA_TILED_WOOL);
+        addDrop(ModBlocks.ORANGE_TILED_WOOL);
+        addDrop(ModBlocks.LIME_TILED_WOOL);
+        addDrop(ModBlocks.CYAN_TILED_WOOL);
+        addDrop(ModBlocks.PURPLE_TILED_WOOL);
+        addDrop(ModBlocks.RED_TILED_WOOL);
+        addDrop(ModBlocks.PINK_TILED_WOOL);
+        addDrop(ModBlocks.BROWN_TILED_WOOL);
+        addDrop(ModBlocks.YELLOW_TILED_WOOL);
 
         addDrop(ModBlocks.CACTUS_PLANKS);
         addDrop(ModBlocks.CACTUS_STAIRS);

@@ -92,5 +92,7 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
         ;
 
 
+
+
     }
 }

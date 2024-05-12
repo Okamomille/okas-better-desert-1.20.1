@@ -1,9 +1,11 @@
 package net.okamiz.okasbetterdesert.item;
 
+import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.StewItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -12,7 +14,11 @@ import net.okamiz.okasbetterdesert.OkasBetterDesert;
 public class ModItems {
 
 
+    public static final Item DRIED_CACTUS = registerItem("dried_cactus",
+            new Item(new FabricItemSettings().food(ModFoodComponents.DRIED_CACTUS)));
 
+    public static final Item CACTUS_SOUP = registerItem("cactus_soup",
+            new StewItem(new FabricItemSettings().maxCount(1).food(ModFoodComponents.CACTUS_SOUP)));
 
 
 

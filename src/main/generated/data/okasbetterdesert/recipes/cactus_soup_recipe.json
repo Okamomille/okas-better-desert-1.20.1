@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "minecraft:bowl"
+    },
+    "X": {
+      "item": "okasbetterdesert:dried_cactus"
+    }
+  },
+  "pattern": [
+    "XXX",
+    " S "
+  ],
+  "result": {
+    "item": "okasbetterdesert:cactus_soup"
+  },
+  "show_notification": true
+}

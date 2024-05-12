@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "dried_cactus",
+  "ingredient": {
+    "item": "okasbetterdesert:small_cactus"
+  },
+  "result": "okasbetterdesert:dried_cactus"
+}

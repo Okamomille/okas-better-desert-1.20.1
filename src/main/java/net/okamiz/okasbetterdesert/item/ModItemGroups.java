@@ -77,6 +77,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TINY_CACTUS);
                         entries.add(ModBlocks.SMALL_CACTUS);
 
+                        entries.add(ModItems.DRIED_CACTUS);
+                        entries.add(ModItems.CACTUS_SOUP);
+
 
                     }).build());
 

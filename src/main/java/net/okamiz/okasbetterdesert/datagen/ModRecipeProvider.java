@@ -5,21 +5,34 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import net.okamiz.okasbetterdesert.block.ModBlocks;
+import net.okamiz.okasbetterdesert.item.ModItems;
 
+import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
+
+
+    private static final List<ItemConvertible> CACTUS_SMELTABLE = List.of(ModBlocks.SMALL_CACTUS,ModBlocks.TINY_CACTUS);
+
+
+
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
     }
 
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
+
+        offerSmelting(exporter, CACTUS_SMELTABLE, RecipeCategory.MISC, ModItems.DRIED_CACTUS,
+                0.7f,100,"dried_cactus");
+
 
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CHISELED_SANDSTONE, 3)
@@ -351,7 +364,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
         createTrapdoorRecipe(ModBlocks.CACTUS_TRAPDOOR, Ingredient.ofItems(ModBlocks.CACTUS_PLANKS))
                 .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_TRAPDOOR)));
-        
+
+
+
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.CACTUS_SOUP, 1)
+                .pattern("XXX")
+                .pattern(" S ")
+                .input('X', ModItems.DRIED_CACTUS)
+                .input('S', Items.BOWL)
+                .criterion(hasItem(ModItems.DRIED_CACTUS),conditionsFromItem(ModItems.DRIED_CACTUS))
+                .offerTo(exporter, new Identifier("cactus_soup_recipe"));
         
         
     }

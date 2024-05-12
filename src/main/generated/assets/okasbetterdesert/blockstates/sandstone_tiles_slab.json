@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "okasbetterdesert:block/sandstone_tiles_slab"
+    },
+    "type=double": {
+      "model": "okasbetterdesert:block/sandstone_tiles"
+    },
+    "type=top": {
+      "model": "okasbetterdesert:block/sandstone_tiles_slab_top"
+    }
+  }
+}

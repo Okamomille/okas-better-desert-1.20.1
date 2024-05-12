@@ -118,6 +118,28 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
 
 
 
+        getOrCreateTagBuilder(BlockTags.STAIRS)
+                .add(ModBlocks.BIT_SANDSTONE_STAIRS)
+                .add(ModBlocks.SANDSTONE_TILES_STAIRS)
+                .add(ModBlocks.SANDSTONE_BRICKS_STAIRS)
+                .add(ModBlocks.POLISHED_SANDSTONE_STAIRS)
+                .add(ModBlocks.TILED_SANDSTONE_STAIRS)
+
+                .add(ModBlocks.RED_SANDSTONE_BRICKS_STAIRS)
+                .add(ModBlocks.BIT_RED_SANDSTONE_STAIRS)
+                .add(ModBlocks.TILED_RED_SANDSTONE_STAIRS)
+        ;
+        getOrCreateTagBuilder(BlockTags.SLABS)
+                .add(ModBlocks.BIT_SANDSTONE_SLAB)
+                .add(ModBlocks.SANDSTONE_TILES_SLAB)
+                .add(ModBlocks.SANDSTONE_BRICKS_SLAB)
+                .add(ModBlocks.POLISHED_SANDSTONE_SLAB)
+                .add(ModBlocks.TILED_SANDSTONE_SLAB)
+
+                .add(ModBlocks.RED_SANDSTONE_BRICKS_SLAB)
+                .add(ModBlocks.BIT_RED_SANDSTONE_SLAB)
+                .add(ModBlocks.TILED_RED_SANDSTONE_SLAB)
+        ;
 
 
     }

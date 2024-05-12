@@ -16,16 +16,46 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_SANDSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SANDSTONE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SANDSTONE_TILES);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BIT_SANDSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TILED_SANDSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_SANDSTONE);
+
+
+        BlockStateModelGenerator.BlockTexturePool sandstoneBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_BRICKS);
+        sandstoneBricksPool.stairs(ModBlocks.SANDSTONE_BRICKS_STAIRS);
+        sandstoneBricksPool.slab(ModBlocks.SANDSTONE_BRICKS_SLAB);
+
+
+        BlockStateModelGenerator.BlockTexturePool sandstoneTilesPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_TILES);
+        sandstoneTilesPool.stairs(ModBlocks.SANDSTONE_TILES_STAIRS);
+        sandstoneTilesPool.slab(ModBlocks.SANDSTONE_TILES_SLAB);
+
+
+        BlockStateModelGenerator.BlockTexturePool bitSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BIT_SANDSTONE);
+        bitSandstonePool.stairs(ModBlocks.BIT_SANDSTONE_STAIRS);
+        bitSandstonePool.slab(ModBlocks.BIT_SANDSTONE_SLAB);
+
+
+        BlockStateModelGenerator.BlockTexturePool tiledSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILED_SANDSTONE);
+        tiledSandstonePool.stairs(ModBlocks.TILED_SANDSTONE_STAIRS);
+        tiledSandstonePool.slab(ModBlocks.TILED_SANDSTONE_SLAB);
+
+
+        BlockStateModelGenerator.BlockTexturePool polishedSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_SANDSTONE);
+        polishedSandstonePool.stairs(ModBlocks.POLISHED_SANDSTONE_STAIRS);
+        polishedSandstonePool.slab(ModBlocks.POLISHED_SANDSTONE_SLAB);
+
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_RED_SANDSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_SANDSTONE_BRICKS);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BIT_RED_SANDSTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TILED_RED_SANDSTONE);
+
+        BlockStateModelGenerator.BlockTexturePool redSandstoneBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.RED_SANDSTONE_BRICKS);
+        redSandstoneBricksPool.stairs(ModBlocks.RED_SANDSTONE_BRICKS_STAIRS);
+        redSandstoneBricksPool.slab(ModBlocks.RED_SANDSTONE_BRICKS_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool bitRedSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.BIT_RED_SANDSTONE);
+        bitRedSandstonePool.stairs(ModBlocks.BIT_RED_SANDSTONE_STAIRS);
+        bitRedSandstonePool.slab(ModBlocks.BIT_RED_SANDSTONE_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool tiledRedSandstonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILED_RED_SANDSTONE);
+        tiledRedSandstonePool.stairs(ModBlocks.TILED_RED_SANDSTONE_STAIRS);
+        tiledRedSandstonePool.slab(ModBlocks.TILED_RED_SANDSTONE_SLAB);
 
 
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.BROWN_ROYAL_WOOL);

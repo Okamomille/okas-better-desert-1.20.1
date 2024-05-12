@@ -21,20 +21,40 @@ public class ModItemGroups {
                         entries.add(ModItems.DRIED_CACTUS);
                         entries.add(ModItems.CACTUS_SOUP);
 
+                        entries.add(ModBlocks.TINY_CACTUS);
+                        entries.add(ModBlocks.SMALL_CACTUS);
+
+                        entries.add(ModBlocks.JAR);
 
                         entries.add(ModBlocks.CHISELED_SANDSTONE);
                         entries.add(ModBlocks.SANDSTONE_BRICKS);
+                        entries.add(ModBlocks.SANDSTONE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.SANDSTONE_BRICKS_SLAB);
                         entries.add(ModBlocks.SANDSTONE_TILES);
+                        entries.add(ModBlocks.SANDSTONE_TILES_STAIRS);
+                        entries.add(ModBlocks.SANDSTONE_TILES_SLAB);
                         entries.add(ModBlocks.POLISHED_SANDSTONE);
+                        entries.add(ModBlocks.POLISHED_SANDSTONE_STAIRS);
+                        entries.add(ModBlocks.POLISHED_SANDSTONE_SLAB);
                         entries.add(ModBlocks.TILED_SANDSTONE);
+                        entries.add(ModBlocks.TILED_SANDSTONE_STAIRS);
+                        entries.add(ModBlocks.TILED_SANDSTONE_SLAB);
                         entries.add(ModBlocks.BIT_SANDSTONE);
+                        entries.add(ModBlocks.BIT_SANDSTONE_STAIRS);
+                        entries.add(ModBlocks.BIT_SANDSTONE_SLAB);
                         entries.add(ModBlocks.SANDSTONE_PILLAR);
                         entries.add(ModBlocks.BIT_SANDSTONE_PILLAR);
 
                         entries.add(ModBlocks.CHISELED_RED_SANDSTONE);
                         entries.add(ModBlocks.RED_SANDSTONE_BRICKS);
+                        entries.add(ModBlocks.RED_SANDSTONE_BRICKS_STAIRS);
+                        entries.add(ModBlocks.RED_SANDSTONE_BRICKS_SLAB);
                         entries.add(ModBlocks.TILED_RED_SANDSTONE);
+                        entries.add(ModBlocks.TILED_RED_SANDSTONE_STAIRS);
+                        entries.add(ModBlocks.TILED_RED_SANDSTONE_SLAB);
                         entries.add(ModBlocks.BIT_RED_SANDSTONE);
+                        entries.add(ModBlocks.BIT_RED_SANDSTONE_STAIRS);
+                        entries.add(ModBlocks.BIT_RED_SANDSTONE_SLAB);
                         entries.add(ModBlocks.BIT_RED_SANDSTONE_PILLAR);
 
 
@@ -77,11 +97,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CACTUS_SLAB);
                         entries.add(ModBlocks.CACTUS_DOOR);
                         entries.add(ModBlocks.CACTUS_TRAPDOOR);
-
-                        entries.add(ModBlocks.TINY_CACTUS);
-                        entries.add(ModBlocks.SMALL_CACTUS);
-
-                        entries.add(ModBlocks.JAR);
 
 
                     }).build());

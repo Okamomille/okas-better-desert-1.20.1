@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "okasbetterdesert:block/polished_sandstone",
+    "side": "okasbetterdesert:block/polished_sandstone",
+    "top": "okasbetterdesert:block/polished_sandstone"
+  }
+}

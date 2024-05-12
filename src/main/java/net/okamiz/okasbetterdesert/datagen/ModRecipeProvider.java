@@ -35,14 +35,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
-
-
-
-
-
-
-
-
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.JAR, 1)
                 .pattern(" X ")
                 .pattern("X X")
@@ -51,6 +43,80 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(Blocks.TERRACOTTA),conditionsFromItem(ModBlocks.JAR))
                 .offerTo(exporter, new Identifier("jar_recipe"));
 
+
+
+
+
+        createStairsRecipe(ModBlocks.SANDSTONE_BRICKS_STAIRS, Ingredient.ofItems(ModBlocks.SANDSTONE_BRICKS))
+                .criterion(hasItem(ModBlocks.SANDSTONE_BRICKS),conditionsFromItem(ModBlocks.SANDSTONE_BRICKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SANDSTONE_BRICKS_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SANDSTONE_BRICKS_SLAB, Ingredient.ofItems(ModBlocks.SANDSTONE_BRICKS))
+                .criterion(hasItem(ModBlocks.SANDSTONE_BRICKS),conditionsFromItem(ModBlocks.SANDSTONE_BRICKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SANDSTONE_BRICKS_SLAB)));
+
+
+        createStairsRecipe(ModBlocks.SANDSTONE_TILES_STAIRS, Ingredient.ofItems(ModBlocks.SANDSTONE_TILES))
+                .criterion(hasItem(ModBlocks.SANDSTONE_TILES),conditionsFromItem(ModBlocks.SANDSTONE_TILES))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SANDSTONE_TILES_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.SANDSTONE_TILES_SLAB, Ingredient.ofItems(ModBlocks.SANDSTONE_TILES))
+                .criterion(hasItem(ModBlocks.SANDSTONE_TILES),conditionsFromItem(ModBlocks.SANDSTONE_TILES))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.SANDSTONE_TILES_SLAB)));
+
+
+        createStairsRecipe(ModBlocks.BIT_SANDSTONE_STAIRS, Ingredient.ofItems(ModBlocks.BIT_SANDSTONE))
+                .criterion(hasItem(ModBlocks.BIT_SANDSTONE),conditionsFromItem(ModBlocks.BIT_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BIT_SANDSTONE_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.BIT_SANDSTONE_SLAB, Ingredient.ofItems(ModBlocks.BIT_SANDSTONE))
+                .criterion(hasItem(ModBlocks.BIT_SANDSTONE),conditionsFromItem(ModBlocks.BIT_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BIT_SANDSTONE_SLAB)));
+
+
+        createStairsRecipe(ModBlocks.TILED_SANDSTONE_STAIRS, Ingredient.ofItems(ModBlocks.TILED_SANDSTONE))
+                .criterion(hasItem(ModBlocks.TILED_SANDSTONE),conditionsFromItem(ModBlocks.TILED_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TILED_SANDSTONE_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.TILED_SANDSTONE_SLAB, Ingredient.ofItems(ModBlocks.TILED_SANDSTONE))
+                .criterion(hasItem(ModBlocks.TILED_SANDSTONE),conditionsFromItem(ModBlocks.TILED_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TILED_SANDSTONE_SLAB)));
+
+
+        createStairsRecipe(ModBlocks.POLISHED_SANDSTONE_STAIRS, Ingredient.ofItems(ModBlocks.POLISHED_SANDSTONE))
+                .criterion(hasItem(ModBlocks.POLISHED_SANDSTONE),conditionsFromItem(ModBlocks.POLISHED_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.POLISHED_SANDSTONE_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.POLISHED_SANDSTONE_SLAB, Ingredient.ofItems(ModBlocks.POLISHED_SANDSTONE))
+                .criterion(hasItem(ModBlocks.POLISHED_SANDSTONE),conditionsFromItem(ModBlocks.POLISHED_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.POLISHED_SANDSTONE_SLAB)));
+
+
+
+        createStairsRecipe(ModBlocks.RED_SANDSTONE_BRICKS_STAIRS, Ingredient.ofItems(ModBlocks.RED_SANDSTONE_BRICKS))
+                .criterion(hasItem(ModBlocks.RED_SANDSTONE_BRICKS),conditionsFromItem(ModBlocks.RED_SANDSTONE_BRICKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RED_SANDSTONE_BRICKS_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.RED_SANDSTONE_BRICKS_SLAB, Ingredient.ofItems(ModBlocks.RED_SANDSTONE_BRICKS))
+                .criterion(hasItem(ModBlocks.RED_SANDSTONE_BRICKS),conditionsFromItem(ModBlocks.RED_SANDSTONE_BRICKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.RED_SANDSTONE_BRICKS_SLAB)));
+
+
+        createStairsRecipe(ModBlocks.BIT_RED_SANDSTONE_STAIRS, Ingredient.ofItems(ModBlocks.BIT_RED_SANDSTONE))
+                .criterion(hasItem(ModBlocks.BIT_RED_SANDSTONE),conditionsFromItem(ModBlocks.BIT_RED_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BIT_RED_SANDSTONE_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.BIT_RED_SANDSTONE_SLAB, Ingredient.ofItems(ModBlocks.BIT_RED_SANDSTONE))
+                .criterion(hasItem(ModBlocks.BIT_RED_SANDSTONE),conditionsFromItem(ModBlocks.BIT_RED_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.BIT_RED_SANDSTONE_SLAB)));
+
+        createStairsRecipe(ModBlocks.TILED_RED_SANDSTONE_STAIRS, Ingredient.ofItems(ModBlocks.TILED_RED_SANDSTONE))
+                .criterion(hasItem(ModBlocks.TILED_RED_SANDSTONE),conditionsFromItem(ModBlocks.TILED_RED_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TILED_RED_SANDSTONE_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.TILED_RED_SANDSTONE_SLAB, Ingredient.ofItems(ModBlocks.TILED_RED_SANDSTONE))
+                .criterion(hasItem(ModBlocks.TILED_RED_SANDSTONE),conditionsFromItem(ModBlocks.TILED_RED_SANDSTONE))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TILED_RED_SANDSTONE_SLAB)));
 
 
 

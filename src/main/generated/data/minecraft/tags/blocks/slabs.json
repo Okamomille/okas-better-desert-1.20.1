@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "okasbetterdesert:bit_sandstone_slab",
+    "okasbetterdesert:sandstone_tiles_slab",
+    "okasbetterdesert:sandstone_bricks_slab",
+    "okasbetterdesert:polished_sandstone_slab",
+    "okasbetterdesert:tiled_sandstone_slab",
+    "okasbetterdesert:red_sandstone_bricks_slab",
+    "okasbetterdesert:bit_red_sandstone_slab",
+    "okasbetterdesert:tiled_red_sandstone_slab"
+  ]
+}

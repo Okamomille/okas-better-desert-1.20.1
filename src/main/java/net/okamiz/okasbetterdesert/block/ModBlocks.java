@@ -20,30 +20,80 @@ public class ModBlocks {
 
     public static final Block CHISELED_SANDSTONE = registerBlock("chiseled_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+
     public static final Block BIT_SANDSTONE = registerBlock("bit_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+    public static final Block BIT_SANDSTONE_STAIRS = registerBlock("bit_sandstone_stairs",
+            new StairsBlock(ModBlocks.BIT_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.BIT_SANDSTONE)));
+    public static final Block BIT_SANDSTONE_SLAB = registerBlock("bit_sandstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.BIT_SANDSTONE)));
+
+
     public static final Block POLISHED_SANDSTONE = registerBlock("polished_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+    public static final Block POLISHED_SANDSTONE_STAIRS = registerBlock("polished_sandstone_stairs",
+            new StairsBlock(ModBlocks.POLISHED_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.POLISHED_SANDSTONE)));
+    public static final Block POLISHED_SANDSTONE_SLAB = registerBlock("polished_sandstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.POLISHED_SANDSTONE)));
+
+
     public static final Block SANDSTONE_BRICKS = registerBlock("sandstone_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+    public static final Block SANDSTONE_BRICKS_STAIRS = registerBlock("sandstone_bricks_stairs",
+            new StairsBlock(ModBlocks.SANDSTONE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.SANDSTONE_BRICKS)));
+    public static final Block SANDSTONE_BRICKS_SLAB = registerBlock("sandstone_bricks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.SANDSTONE_BRICKS)));
+
+
     public static final Block SANDSTONE_TILES = registerBlock("sandstone_tiles",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+    public static final Block SANDSTONE_TILES_STAIRS = registerBlock("sandstone_tiles_stairs",
+            new StairsBlock(ModBlocks.SANDSTONE_TILES.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.SANDSTONE_TILES)));
+    public static final Block SANDSTONE_TILES_SLAB = registerBlock("sandstone_tiles_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.SANDSTONE_TILES)));
+
+
     public static final Block TILED_SANDSTONE = registerBlock("tiled_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
+    public static final Block TILED_SANDSTONE_STAIRS = registerBlock("tiled_sandstone_stairs",
+            new StairsBlock(ModBlocks.TILED_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.TILED_SANDSTONE)));
+    public static final Block TILED_SANDSTONE_SLAB = registerBlock("tiled_sandstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.TILED_SANDSTONE)));
+
+
 
     public static final Block SANDSTONE_PILLAR = registerBlock("sandstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
     public static final Block BIT_SANDSTONE_PILLAR = registerBlock("bit_sandstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 
+
+
     public static final Block CHISELED_RED_SANDSTONE = registerBlock("chiseled_red_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
     public static final Block BIT_RED_SANDSTONE = registerBlock("bit_red_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
+    public static final Block BIT_RED_SANDSTONE_STAIRS = registerBlock("bit_red_sandstone_stairs",
+            new StairsBlock(ModBlocks.BIT_RED_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.BIT_RED_SANDSTONE)));
+    public static final Block BIT_RED_SANDSTONE_SLAB = registerBlock("bit_red_sandstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.BIT_RED_SANDSTONE)));
+
+
     public static final Block RED_SANDSTONE_BRICKS = registerBlock("red_sandstone_bricks",
             new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
+    public static final Block RED_SANDSTONE_BRICKS_STAIRS = registerBlock("red_sandstone_bricks_stairs",
+            new StairsBlock(ModBlocks.RED_SANDSTONE_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.RED_SANDSTONE_BRICKS)));
+    public static final Block RED_SANDSTONE_BRICKS_SLAB = registerBlock("red_sandstone_bricks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.RED_SANDSTONE_BRICKS)));
+
+
     public static final Block TILED_RED_SANDSTONE = registerBlock("tiled_red_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));
+    public static final Block TILED_RED_SANDSTONE_STAIRS = registerBlock("tiled_red_sandstone_stairs",
+            new StairsBlock(ModBlocks.TILED_RED_SANDSTONE.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.TILED_RED_SANDSTONE)));
+    public static final Block TILED_RED_SANDSTONE_SLAB = registerBlock("tiled_red_sandstone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.TILED_RED_SANDSTONE)));
+
 
     public static final Block BIT_RED_SANDSTONE_PILLAR = registerBlock("bit_red_sandstone_pillar",
             new PillarBlock(FabricBlockSettings.copyOf(Blocks.RED_SANDSTONE)));

@@ -14,17 +14,42 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
 
         addDrop(ModBlocks.CHISELED_SANDSTONE);
         addDrop(ModBlocks.SANDSTONE_TILES);
+        addDrop(ModBlocks.SANDSTONE_TILES_SLAB, slabDrops(ModBlocks.SANDSTONE_TILES_SLAB));
+        addDrop(ModBlocks.SANDSTONE_TILES_STAIRS);
+
         addDrop(ModBlocks.SANDSTONE_BRICKS);
+        addDrop(ModBlocks.SANDSTONE_BRICKS_SLAB, slabDrops(ModBlocks.SANDSTONE_BRICKS_SLAB));
+        addDrop(ModBlocks.SANDSTONE_BRICKS_STAIRS);
+
         addDrop(ModBlocks.POLISHED_SANDSTONE);
+        addDrop(ModBlocks.POLISHED_SANDSTONE_SLAB, slabDrops(ModBlocks.POLISHED_SANDSTONE_SLAB));
+        addDrop(ModBlocks.POLISHED_SANDSTONE_STAIRS);
+
         addDrop(ModBlocks.BIT_SANDSTONE);
+        addDrop(ModBlocks.BIT_SANDSTONE_SLAB, slabDrops(ModBlocks.BIT_SANDSTONE_SLAB));
+        addDrop(ModBlocks.BIT_SANDSTONE_STAIRS);
+
         addDrop(ModBlocks.TILED_SANDSTONE);
+        addDrop(ModBlocks.TILED_SANDSTONE_SLAB, slabDrops(ModBlocks.TILED_SANDSTONE_SLAB));
+        addDrop(ModBlocks.TILED_SANDSTONE_STAIRS);
+
         addDrop(ModBlocks.SANDSTONE_PILLAR);
         addDrop(ModBlocks.BIT_SANDSTONE_PILLAR);
 
         addDrop(ModBlocks.CHISELED_RED_SANDSTONE);
+
         addDrop(ModBlocks.RED_SANDSTONE_BRICKS);
+        addDrop(ModBlocks.RED_SANDSTONE_BRICKS_SLAB, slabDrops(ModBlocks.RED_SANDSTONE_BRICKS_SLAB));
+        addDrop(ModBlocks.RED_SANDSTONE_BRICKS_STAIRS);
+
         addDrop(ModBlocks.BIT_RED_SANDSTONE);
+        addDrop(ModBlocks.BIT_RED_SANDSTONE_SLAB, slabDrops(ModBlocks.BIT_RED_SANDSTONE_SLAB));
+        addDrop(ModBlocks.BIT_RED_SANDSTONE_STAIRS);
+
         addDrop(ModBlocks.TILED_RED_SANDSTONE);
+        addDrop(ModBlocks.TILED_RED_SANDSTONE_SLAB, slabDrops(ModBlocks.TILED_RED_SANDSTONE_SLAB));
+        addDrop(ModBlocks.TILED_RED_SANDSTONE_STAIRS);
+
         addDrop(ModBlocks.BIT_RED_SANDSTONE_PILLAR);
 
         addDrop(ModBlocks.BLUE_ROYAL_WOOL);

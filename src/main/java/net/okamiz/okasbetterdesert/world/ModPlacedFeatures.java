@@ -14,6 +14,7 @@ import java.util.List;
 public class ModPlacedFeatures {
     
     public static final RegistryKey<PlacedFeature> SMALL_CACTUS_PLACED_KEY = registerKey("small_cactus_placed");
+    public static final RegistryKey<PlacedFeature> TINY_CACTUS_PLACED_KEY = registerKey("tiny_cactus_placed");
 
 
 
@@ -23,6 +24,8 @@ public class ModPlacedFeatures {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, SMALL_CACTUS_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SMALL_CACTUS_KEY),
+                ModPlantsPlacement.modifiersWithCount(1));
+        register(context, TINY_CACTUS_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.TINY_CACTUS_KEY),
                 ModPlantsPlacement.modifiersWithCount(1));
         
     }

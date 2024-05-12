@@ -11,6 +11,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.okamiz.okasbetterdesert.OkasBetterDesert;
+import net.okamiz.okasbetterdesert.block.custom.JarBlock;
 import net.okamiz.okasbetterdesert.block.custom.ModTrapdoorBlock;
 import net.okamiz.okasbetterdesert.block.custom.SmallCactusBlock;
 
@@ -142,12 +143,13 @@ public class ModBlocks {
             new DeadBushBlock(FabricBlockSettings.copyOf(Blocks.FERN).nonOpaque().noCollision()));
 
     public static final Block SMALL_CACTUS = registerBlock("small_cactus",
-            new SmallCactusBlock(FabricBlockSettings.copyOf(Blocks.CACTUS).nonOpaque().noCollision()));
+            new SmallCactusBlock(FabricBlockSettings.copyOf(Blocks.CACTUS)));
 
 
     // --------------
 
-
+    public static final Block JAR = registerBlock("jar",
+            new JarBlock(FabricBlockSettings.copyOf(Blocks.DECORATED_POT).sounds(BlockSoundGroup.DECORATED_POT)));
 
 
 

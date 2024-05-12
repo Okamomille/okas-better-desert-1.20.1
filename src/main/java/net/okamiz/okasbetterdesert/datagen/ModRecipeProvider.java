@@ -35,6 +35,30 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+
+
+
+
+
+
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.JAR, 1)
+                .pattern(" X ")
+                .pattern("X X")
+                .pattern("XXX")
+                .input('X', Blocks.TERRACOTTA)
+                .criterion(hasItem(Blocks.TERRACOTTA),conditionsFromItem(ModBlocks.JAR))
+                .offerTo(exporter, new Identifier("jar_recipe"));
+
+
+
+
+
+
+
+
+
         ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModBlocks.CHISELED_SANDSTONE, 3)
                 .pattern(" S ")
                 .pattern("S S")

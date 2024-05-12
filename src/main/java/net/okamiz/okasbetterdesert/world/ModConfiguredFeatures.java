@@ -15,7 +15,7 @@ public class ModConfiguredFeatures {
     
     public static final RegistryKey<ConfiguredFeature<?,?>> SMALL_CACTUS_KEY = registryKey("small_cactus_key");
 
-    public static void boostrap(Registerable<ConfiguredFeature<?,?>> context){
+    public static void bootstrap(Registerable<ConfiguredFeature<?,?>> context){
 
         register(context, SMALL_CACTUS_KEY, Feature.FLOWER, ConfiguredFeatures.createRandomPatchFeatureConfig(5,
                 PlacedFeatures.createEntry(Feature.SIMPLE_BLOCK, new SimpleBlockFeatureConfig(BlockStateProvider.of(ModBlocks.SMALL_CACTUS)))));

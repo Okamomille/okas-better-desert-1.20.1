@@ -19,7 +19,7 @@ public class ModPlacedFeatures {
 
 
 
-    public static void boostrap(Registerable<PlacedFeature> context) {
+    public static void bootstrap(Registerable<PlacedFeature> context) {
         var configuredFeatureRegistryEntryLookup = context.getRegistryLookup(RegistryKeys.CONFIGURED_FEATURE);
 
         register(context, SMALL_CACTUS_PLACED_KEY, configuredFeatureRegistryEntryLookup.getOrThrow(ModConfiguredFeatures.SMALL_CACTUS_KEY),

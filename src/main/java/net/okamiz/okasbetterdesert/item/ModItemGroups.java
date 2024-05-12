@@ -18,6 +18,10 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modgroup"))
                     .icon(() -> new ItemStack(Items.GLOWSTONE_DUST)).entries((displayContext, entries) -> {
 
+                        entries.add(ModItems.DRIED_CACTUS);
+                        entries.add(ModItems.CACTUS_SOUP);
+
+
                         entries.add(ModBlocks.CHISELED_SANDSTONE);
                         entries.add(ModBlocks.SANDSTONE_BRICKS);
                         entries.add(ModBlocks.SANDSTONE_TILES);
@@ -77,8 +81,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TINY_CACTUS);
                         entries.add(ModBlocks.SMALL_CACTUS);
 
-                        entries.add(ModItems.DRIED_CACTUS);
-                        entries.add(ModItems.CACTUS_SOUP);
+                        entries.add(ModBlocks.JAR);
 
 
                     }).build());

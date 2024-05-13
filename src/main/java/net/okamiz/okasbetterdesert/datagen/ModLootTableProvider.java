@@ -12,6 +12,23 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
 
+        addDrop(ModBlocks.SCULPTED_TERRACOTTA);
+
+        addDrop(ModBlocks.TERRACOTTA_BRICKS);
+        addDrop(ModBlocks.TERRACOTTA_BRICKS_SLAB, slabDrops(ModBlocks.TERRACOTTA_BRICKS_SLAB));
+        addDrop(ModBlocks.TERRACOTTA_BRICKS_STAIRS);
+
+        addDrop(ModBlocks.TILED_TERRACOTTA);
+        addDrop(ModBlocks.TILED_TERRACOTTA_SLAB, slabDrops(ModBlocks.TILED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.TILED_TERRACOTTA_STAIRS);
+
+        addDrop(ModBlocks.POLISHED_TERRACOTTA);
+        addDrop(ModBlocks.POLISHED_TERRACOTTA_SLAB, slabDrops(ModBlocks.POLISHED_TERRACOTTA_SLAB));
+        addDrop(ModBlocks.POLISHED_TERRACOTTA_STAIRS);
+
+
+
+
         addDrop(ModBlocks.CHISELED_SANDSTONE);
         addDrop(ModBlocks.SANDSTONE_TILES);
         addDrop(ModBlocks.SANDSTONE_TILES_SLAB, slabDrops(ModBlocks.SANDSTONE_TILES_SLAB));

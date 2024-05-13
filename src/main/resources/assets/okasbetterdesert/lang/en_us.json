@@ -1,4 +1,16 @@
 {
+  "block.okasbetterdesert.sculpted_terracotta" : "Sculpted Terracotta",
+  "block.okasbetterdesert.polished_terracotta" : "Polished Terracotta",
+  "block.okasbetterdesert.polished_terracotta_stairs" : "Polished Terracotta Stairs",
+  "block.okasbetterdesert.polished_terracotta_slab" : "Polished Terracotta Slab",
+  "block.okasbetterdesert.tiled_terracotta" : "Tiled Terracotta",
+  "block.okasbetterdesert.tiled_terracotta_stairs" : "Tiled Terracotta Stairs",
+  "block.okasbetterdesert.tiled_terracotta_slab" : "Tiled Terracotta Slab",
+  "block.okasbetterdesert.terracotta_bricks" : "Terracotta Bricks",
+  "block.okasbetterdesert.terracotta_bricks_stairs" : "Terracotta Bricks Stairs",
+  "block.okasbetterdesert.terracotta_bricks_slab" : "Terracotta Bricks Slab",
+
+
   "block.okasbetterdesert.chiseled_sandstone" : "Chiseled Sandstone",
   "block.okasbetterdesert.polished_sandstone" : "Polished Sandstone",
   "block.okasbetterdesert.polished_sandstone_stairs" : "Polished Sandstone Stairs",

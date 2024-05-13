@@ -1,5 +1,6 @@
-// 1.20.1	2024-05-12T20:33:29.9623972	Oka's Better Desert/Tags for minecraft:item
+// 1.20.1	2024-05-13T12:12:08.3544142	Oka's Better Desert/Tags for minecraft:item
 f87e2d8392716ee4629bababa221befb8ac0316c data\okasbetterdesert\tags\items\red_sandstones.json
+b34551d1121a6cf437842f2e48948a0a1a392230 data\minecraft\tags\items\terracotta.json
 604b5a966302c1f307144c1fd4f6fdfbb75415bf data\okasbetterdesert\tags\items\sandstones.json
 b57bdef10886b30089dfdb80dc04af3e596b2561 data\minecraft\tags\items\planks.json
 0e6c239ec98a256653e7bf44ddfff3cc20d89e05 data\minecraft\tags\items\wool.json

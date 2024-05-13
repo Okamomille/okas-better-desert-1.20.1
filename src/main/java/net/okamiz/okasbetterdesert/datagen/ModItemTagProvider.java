@@ -91,6 +91,13 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
                 .add(ModBlocks.CACTUS_PLANKS.asItem())
         ;
 
+        getOrCreateTagBuilder(ItemTags.TERRACOTTA)
+                .add(ModBlocks.TERRACOTTA_BRICKS.asItem())
+                .add(ModBlocks.POLISHED_TERRACOTTA.asItem())
+                .add(ModBlocks.TILED_TERRACOTTA.asItem())
+                .add(ModBlocks.SCULPTED_TERRACOTTA.asItem())
+        ;
+
 
 
 

@@ -26,6 +26,18 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.JAR);
 
+
+                        entries.add(ModBlocks.SCULPTED_TERRACOTTA);
+                        entries.add(ModBlocks.POLISHED_TERRACOTTA);
+                        entries.add(ModBlocks.POLISHED_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.POLISHED_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.TILED_TERRACOTTA);
+                        entries.add(ModBlocks.TILED_TERRACOTTA_STAIRS);
+                        entries.add(ModBlocks.TILED_TERRACOTTA_SLAB);
+                        entries.add(ModBlocks.TERRACOTTA_BRICKS);
+                        entries.add(ModBlocks.TERRACOTTA_BRICKS_STAIRS);
+                        entries.add(ModBlocks.TERRACOTTA_BRICKS_SLAB);
+
                         entries.add(ModBlocks.CHISELED_SANDSTONE);
                         entries.add(ModBlocks.SANDSTONE_BRICKS);
                         entries.add(ModBlocks.SANDSTONE_BRICKS_STAIRS);

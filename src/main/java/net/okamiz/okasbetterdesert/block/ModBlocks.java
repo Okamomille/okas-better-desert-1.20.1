@@ -18,6 +18,36 @@ import net.okamiz.okasbetterdesert.block.custom.SmallCactusBlock;
 public class ModBlocks {
 
 
+    public static final Block SCULPTED_TERRACOTTA = registerBlock("sculpted_terracotta",
+            new Block(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)));
+
+    public static final Block POLISHED_TERRACOTTA = registerBlock("polished_terracotta",
+            new Block(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)));
+    public static final Block POLISHED_TERRACOTTA_STAIRS = registerBlock("polished_terracotta_stairs",
+            new StairsBlock(ModBlocks.POLISHED_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.POLISHED_TERRACOTTA)));
+    public static final Block POLISHED_TERRACOTTA_SLAB = registerBlock("polished_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.POLISHED_TERRACOTTA)));
+
+    public static final Block TERRACOTTA_BRICKS = registerBlock("terracotta_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)));
+    public static final Block TERRACOTTA_BRICKS_STAIRS = registerBlock("terracotta_bricks_stairs",
+            new StairsBlock(ModBlocks.TERRACOTTA_BRICKS.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.TERRACOTTA_BRICKS)));
+    public static final Block TERRACOTTA_BRICKS_SLAB = registerBlock("terracotta_bricks_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.TERRACOTTA_BRICKS)));
+
+    public static final Block TILED_TERRACOTTA = registerBlock("tiled_terracotta",
+            new Block(FabricBlockSettings.copyOf(Blocks.TERRACOTTA)));
+    public static final Block TILED_TERRACOTTA_STAIRS = registerBlock("tiled_terracotta_stairs",
+            new StairsBlock(ModBlocks.TILED_TERRACOTTA.getDefaultState(), FabricBlockSettings.copyOf(ModBlocks.TILED_TERRACOTTA)));
+    public static final Block TILED_TERRACOTTA_SLAB = registerBlock("tiled_terracotta_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(ModBlocks.TILED_TERRACOTTA)));
+
+
+
+
+
+
+
     public static final Block CHISELED_SANDSTONE = registerBlock("chiseled_sandstone",
             new Block(FabricBlockSettings.copyOf(Blocks.SANDSTONE)));
 

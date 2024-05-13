@@ -16,6 +16,22 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_SANDSTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SCULPTED_TERRACOTTA);
+
+        BlockStateModelGenerator.BlockTexturePool polishedTerracottaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_TERRACOTTA);
+        polishedTerracottaPool.stairs(ModBlocks.POLISHED_TERRACOTTA_STAIRS);
+        polishedTerracottaPool.slab(ModBlocks.POLISHED_TERRACOTTA_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool terracottaBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TERRACOTTA_BRICKS);
+        terracottaBricksPool.stairs(ModBlocks.TERRACOTTA_BRICKS_STAIRS);
+        terracottaBricksPool.slab(ModBlocks.TERRACOTTA_BRICKS_SLAB);
+
+        BlockStateModelGenerator.BlockTexturePool tiledTerracottaPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.TILED_TERRACOTTA);
+        tiledTerracottaPool.stairs(ModBlocks.TILED_TERRACOTTA_STAIRS);
+        tiledTerracottaPool.slab(ModBlocks.TILED_TERRACOTTA_SLAB);
+
+
+
 
 
         BlockStateModelGenerator.BlockTexturePool sandstoneBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_BRICKS);

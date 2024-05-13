@@ -45,6 +45,67 @@ public class ModRecipeProvider extends FabricRecipeProvider {
 
 
 
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.SCULPTED_TERRACOTTA, 8)
+                .pattern("XXX")
+                .pattern("XOX")
+                .pattern("XXX")
+                .input('X', Blocks.TERRACOTTA)
+                .input('O', Items.SPIDER_EYE)
+                .criterion(hasItem(Blocks.TERRACOTTA),conditionsFromItem(ModBlocks.SCULPTED_TERRACOTTA))
+                .offerTo(exporter, new Identifier("sculpted_terracotta_recipe"));
+
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_TERRACOTTA, 4)
+                .pattern("XX")
+                .pattern("XX")
+                .input('X', Blocks.TERRACOTTA)
+                .criterion(hasItem(Blocks.TERRACOTTA),conditionsFromItem(ModBlocks.POLISHED_TERRACOTTA))
+                .offerTo(exporter, new Identifier("polished_terracotta_recipe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TERRACOTTA_BRICKS, 4)
+                .pattern("XX")
+                .pattern("XX")
+                .input('X', ModBlocks.POLISHED_TERRACOTTA)
+                .criterion(hasItem(ModBlocks.POLISHED_TERRACOTTA),conditionsFromItem(ModBlocks.TERRACOTTA_BRICKS))
+                .offerTo(exporter, new Identifier("terracotta_bricks_recipe"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.TILED_TERRACOTTA, 4)
+                .pattern("XX")
+                .pattern("XX")
+                .input('X', ModBlocks.TERRACOTTA_BRICKS)
+                .criterion(hasItem(ModBlocks.TERRACOTTA_BRICKS),conditionsFromItem(ModBlocks.TILED_TERRACOTTA))
+                .offerTo(exporter, new Identifier("tiled_terracotta_recipe"));
+
+
+
+
+        createStairsRecipe(ModBlocks.TERRACOTTA_BRICKS_STAIRS, Ingredient.ofItems(ModBlocks.TERRACOTTA_BRICKS))
+                .criterion(hasItem(ModBlocks.TERRACOTTA_BRICKS),conditionsFromItem(ModBlocks.TERRACOTTA_BRICKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TERRACOTTA_BRICKS_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.TERRACOTTA_BRICKS_SLAB, Ingredient.ofItems(ModBlocks.TERRACOTTA_BRICKS))
+                .criterion(hasItem(ModBlocks.TERRACOTTA_BRICKS),conditionsFromItem(ModBlocks.TERRACOTTA_BRICKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TERRACOTTA_BRICKS_SLAB)));
+
+        createStairsRecipe(ModBlocks.TILED_TERRACOTTA_STAIRS, Ingredient.ofItems(ModBlocks.TILED_TERRACOTTA))
+                .criterion(hasItem(ModBlocks.TILED_TERRACOTTA),conditionsFromItem(ModBlocks.TILED_TERRACOTTA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TILED_TERRACOTTA_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.TILED_TERRACOTTA_SLAB, Ingredient.ofItems(ModBlocks.TILED_TERRACOTTA))
+                .criterion(hasItem(ModBlocks.TILED_TERRACOTTA),conditionsFromItem(ModBlocks.TILED_TERRACOTTA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.TILED_TERRACOTTA_SLAB)));
+
+        createStairsRecipe(ModBlocks.POLISHED_TERRACOTTA_STAIRS, Ingredient.ofItems(ModBlocks.POLISHED_TERRACOTTA))
+                .criterion(hasItem(ModBlocks.POLISHED_TERRACOTTA),conditionsFromItem(ModBlocks.POLISHED_TERRACOTTA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.POLISHED_TERRACOTTA_STAIRS)));
+
+        createSlabRecipe(RecipeCategory.BUILDING_BLOCKS,ModBlocks.POLISHED_TERRACOTTA_SLAB, Ingredient.ofItems(ModBlocks.POLISHED_TERRACOTTA))
+                .criterion(hasItem(ModBlocks.POLISHED_TERRACOTTA),conditionsFromItem(ModBlocks.POLISHED_TERRACOTTA))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.POLISHED_TERRACOTTA_SLAB)));
+
+
+
+
 
 
         createStairsRecipe(ModBlocks.SANDSTONE_BRICKS_STAIRS, Ingredient.ofItems(ModBlocks.SANDSTONE_BRICKS))

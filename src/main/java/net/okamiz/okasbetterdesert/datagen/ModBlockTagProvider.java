@@ -25,18 +25,45 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.CHISELED_SANDSTONE)
                 .add(ModBlocks.SANDSTONE_BRICKS)
+                .add(ModBlocks.SANDSTONE_BRICKS_STAIRS)
+                .add(ModBlocks.SANDSTONE_BRICKS_SLAB)
                 .add(ModBlocks.SANDSTONE_TILES)
+                .add(ModBlocks.SANDSTONE_TILES_STAIRS)
+                .add(ModBlocks.SANDSTONE_TILES_SLAB)
                 .add(ModBlocks.POLISHED_SANDSTONE)
+                .add(ModBlocks.POLISHED_SANDSTONE_STAIRS)
+                .add(ModBlocks.POLISHED_SANDSTONE_SLAB)
                 .add(ModBlocks.TILED_SANDSTONE)
+                .add(ModBlocks.TILED_SANDSTONE_STAIRS)
+                .add(ModBlocks.TILED_SANDSTONE_SLAB)
                 .add(ModBlocks.BIT_SANDSTONE)
+                .add(ModBlocks.BIT_SANDSTONE_STAIRS)
+                .add(ModBlocks.BIT_SANDSTONE_SLAB)
                 .add(ModBlocks.SANDSTONE_PILLAR)
                 .add(ModBlocks.BIT_SANDSTONE_PILLAR)
 
                 .add(ModBlocks.CHISELED_RED_SANDSTONE)
                 .add(ModBlocks.RED_SANDSTONE_BRICKS)
+                .add(ModBlocks.RED_SANDSTONE_BRICKS_STAIRS)
+                .add(ModBlocks.RED_SANDSTONE_BRICKS_SLAB)
                 .add(ModBlocks.TILED_RED_SANDSTONE)
+                .add(ModBlocks.TILED_RED_SANDSTONE_STAIRS)
+                .add(ModBlocks.TILED_RED_SANDSTONE_SLAB)
                 .add(ModBlocks.BIT_RED_SANDSTONE)
+                .add(ModBlocks.BIT_RED_SANDSTONE_STAIRS)
+                .add(ModBlocks.BIT_RED_SANDSTONE_SLAB)
                 .add(ModBlocks.BIT_RED_SANDSTONE_PILLAR)
+
+                .add(ModBlocks.TERRACOTTA_BRICKS)
+                .add(ModBlocks.TERRACOTTA_BRICKS_STAIRS)
+                .add(ModBlocks.TERRACOTTA_BRICKS_SLAB)
+                .add(ModBlocks.POLISHED_TERRACOTTA)
+                .add(ModBlocks.POLISHED_TERRACOTTA_STAIRS)
+                .add(ModBlocks.POLISHED_TERRACOTTA_SLAB)
+                .add(ModBlocks.TILED_TERRACOTTA)
+                .add(ModBlocks.TILED_TERRACOTTA_STAIRS)
+                .add(ModBlocks.TILED_TERRACOTTA_SLAB)
+                .add(ModBlocks.SCULPTED_TERRACOTTA)
 
 
         ;
@@ -128,6 +155,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_SANDSTONE_BRICKS_STAIRS)
                 .add(ModBlocks.BIT_RED_SANDSTONE_STAIRS)
                 .add(ModBlocks.TILED_RED_SANDSTONE_STAIRS)
+                .add(ModBlocks.TERRACOTTA_BRICKS_STAIRS)
+                .add(ModBlocks.POLISHED_TERRACOTTA_STAIRS)
+                .add(ModBlocks.TILED_TERRACOTTA_STAIRS)
         ;
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.BIT_SANDSTONE_SLAB)
@@ -139,8 +169,19 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.RED_SANDSTONE_BRICKS_SLAB)
                 .add(ModBlocks.BIT_RED_SANDSTONE_SLAB)
                 .add(ModBlocks.TILED_RED_SANDSTONE_SLAB)
+                .add(ModBlocks.TERRACOTTA_BRICKS_SLAB)
+                .add(ModBlocks.POLISHED_TERRACOTTA_SLAB)
+                .add(ModBlocks.TILED_TERRACOTTA_SLAB)
         ;
 
+
+        getOrCreateTagBuilder(BlockTags.TERRACOTTA)
+                .add(ModBlocks.TERRACOTTA_BRICKS)
+                .add(ModBlocks.POLISHED_TERRACOTTA)
+                .add(ModBlocks.TILED_TERRACOTTA)
+                .add(ModBlocks.SCULPTED_TERRACOTTA)
+
+        ;
 
     }
 }

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "O": {
+      "item": "minecraft:spider_eye"
+    },
+    "X": {
+      "item": "minecraft:terracotta"
+    }
+  },
+  "pattern": [
+    "XXX",
+    "XOX",
+    "XXX"
+  ],
+  "result": {
+    "count": 8,
+    "item": "okasbetterdesert:sculpted_terracotta"
+  },
+  "show_notification": true
+}

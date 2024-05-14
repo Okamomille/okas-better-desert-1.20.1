@@ -16,7 +16,7 @@ public class ModItemGroups {
     public static final ItemGroup MOD_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(OkasBetterDesert.MOD_ID, "modgroup"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.modgroup"))
-                    .icon(() -> new ItemStack(Items.GLOWSTONE_DUST)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModBlocks.SCULPTED_TERRACOTTA)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.DRIED_CACTUS);
                         entries.add(ModItems.CACTUS_SOUP);

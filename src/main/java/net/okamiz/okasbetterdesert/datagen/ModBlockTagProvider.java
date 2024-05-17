@@ -115,6 +115,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.CACTUS_SLAB)
                 .add(ModBlocks.CACTUS_TRAPDOOR)
                 .add(ModBlocks.CACTUS_DOOR)
+                .add(ModBlocks.CACTUS_PRESSURE_PLATE)
+                .add(ModBlocks.CACTUS_BUTTON)
+                .add(ModBlocks.CACTUS_FENCE)
+                .add(ModBlocks.CACTUS_FENCE_GATE)
         ;
 
         getOrCreateTagBuilder(BlockTags.NEEDS_STONE_TOOL)
@@ -141,6 +145,18 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         ;
         getOrCreateTagBuilder(BlockTags.WOODEN_STAIRS)
                 .add(ModBlocks.CACTUS_STAIRS)
+        ;
+        getOrCreateTagBuilder(BlockTags.WOODEN_FENCES)
+                .add(ModBlocks.CACTUS_FENCE)
+        ;
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.CACTUS_FENCE_GATE)
+        ;
+        getOrCreateTagBuilder(BlockTags.WOODEN_BUTTONS)
+                .add(ModBlocks.CACTUS_BUTTON)
+        ;
+        getOrCreateTagBuilder(BlockTags.WOODEN_PRESSURE_PLATES)
+                .add(ModBlocks.CACTUS_PRESSURE_PLATE)
         ;
 
 

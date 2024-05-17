@@ -5,6 +5,10 @@
     "okasbetterdesert:cactus_stairs",
     "okasbetterdesert:cactus_slab",
     "okasbetterdesert:cactus_trapdoor",
-    "okasbetterdesert:cactus_door"
+    "okasbetterdesert:cactus_door",
+    "okasbetterdesert:cactus_pressure_plate",
+    "okasbetterdesert:cactus_button",
+    "okasbetterdesert:cactus_fence",
+    "okasbetterdesert:cactus_fence_gate"
   ]
 }

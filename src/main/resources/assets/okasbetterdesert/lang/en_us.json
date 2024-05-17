@@ -81,6 +81,10 @@
   "block.okasbetterdesert.cactus_stairs" : "Cactus Stairs",
   "block.okasbetterdesert.cactus_door" : "Cactus Door",
   "block.okasbetterdesert.cactus_trapdoor" : "Cactus Trapdoor",
+  "block.okasbetterdesert.cactus_fence" : "Cactus Fence",
+  "block.okasbetterdesert.cactus_fence_gate" : "Cactus Fence Gate",
+  "block.okasbetterdesert.cactus_button" : "Cactus Button",
+  "block.okasbetterdesert.cactus_pressure_plate" : "Cactus Pressure Plate",
 
   "block.okasbetterdesert.tiny_cactus" : "Tiny Cactus",
   "block.okasbetterdesert.small_cactus" : "Small Cactus",

@@ -5,6 +5,7 @@ import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.minecraft.block.Blocks;
 import net.minecraft.data.server.recipe.RecipeJsonProvider;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
@@ -516,6 +517,25 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_TRAPDOOR)));
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.REDSTONE, ModBlocks.CACTUS_BUTTON, 1).input(ModBlocks.CACTUS_PLANKS)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.CACTUS_PLANKS),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CACTUS_PLANKS)).criterion(FabricRecipeProvider.hasItem(ModBlocks.CACTUS_BUTTON),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.CACTUS_BUTTON))
+                .offerTo(exporter, new Identifier("cactus_button"));
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.REDSTONE,ModBlocks.CACTUS_PRESSURE_PLATE, 1)
+                .pattern("XX")
+                .input('X', ModBlocks.CACTUS_PLANKS)
+                .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_PRESSURE_PLATE)));
+
+        createFenceGateRecipe(ModBlocks.CACTUS_FENCE_GATE, Ingredient.ofItems(ModBlocks.CACTUS_PLANKS))
+                .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_FENCE_GATE)));
+
+        createFenceRecipe(ModBlocks.CACTUS_FENCE, Ingredient.ofItems(ModBlocks.CACTUS_PLANKS))
+                .criterion(hasItem(ModBlocks.CACTUS_PLANKS),conditionsFromItem(ModBlocks.CACTUS_PLANKS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.CACTUS_FENCE)));
 
 
 

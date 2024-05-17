@@ -112,6 +112,10 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool fadedCactusPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.CACTUS_PLANKS);
         fadedCactusPool.stairs(ModBlocks.CACTUS_STAIRS);
         fadedCactusPool.slab(ModBlocks.CACTUS_SLAB);
+        fadedCactusPool.button(ModBlocks.CACTUS_BUTTON);
+        fadedCactusPool.pressurePlate(ModBlocks.CACTUS_PRESSURE_PLATE);
+        fadedCactusPool.fence(ModBlocks.CACTUS_FENCE);
+        fadedCactusPool.fenceGate(ModBlocks.CACTUS_FENCE_GATE);
         blockStateModelGenerator.registerDoor(ModBlocks.CACTUS_DOOR);
         blockStateModelGenerator.registerOrientableTrapdoor(ModBlocks.CACTUS_TRAPDOOR);
 

@@ -109,6 +109,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CACTUS_SLAB);
                         entries.add(ModBlocks.CACTUS_DOOR);
                         entries.add(ModBlocks.CACTUS_TRAPDOOR);
+                        entries.add(ModBlocks.CACTUS_FENCE);
+                        entries.add(ModBlocks.CACTUS_FENCE_GATE);
+                        entries.add(ModBlocks.CACTUS_BUTTON);
+                        entries.add(ModBlocks.CACTUS_PRESSURE_PLATE);
 
 
                     }).build());

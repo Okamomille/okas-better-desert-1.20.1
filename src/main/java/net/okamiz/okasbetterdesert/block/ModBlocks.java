@@ -217,6 +217,16 @@ public class ModBlocks {
             new DoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_DOOR),BlockSetType.BAMBOO));
     public static final Block CACTUS_TRAPDOOR = registerBlock("cactus_trapdoor",
             new ModTrapdoorBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_TRAPDOOR),BlockSetType.BAMBOO));
+    public static final Block CACTUS_BUTTON = registerBlock("cactus_button",
+            new ButtonBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_BUTTON), BlockSetType.BAMBOO, 20, true));
+    public static final Block CACTUS_PRESSURE_PLATE = registerBlock("cactus_pressure_plate",
+            new PressurePlateBlock(PressurePlateBlock.ActivationRule.EVERYTHING,
+                    FabricBlockSettings.copyOf(Blocks.BAMBOO_PRESSURE_PLATE),BlockSetType.BAMBOO));
+
+    public static final Block CACTUS_FENCE = registerBlock("cactus_fence",
+            new FenceBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_FENCE)));
+    public static final Block CACTUS_FENCE_GATE = registerBlock("cactus_fence_gate",
+            new FenceGateBlock(FabricBlockSettings.copyOf(Blocks.BAMBOO_FENCE_GATE), WoodType.BAMBOO));
 
 
     public static final Block TINY_CACTUS = registerBlock("tiny_cactus",
